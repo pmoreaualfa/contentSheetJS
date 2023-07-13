@@ -3,13 +3,13 @@
 <h2 class="text-yellow-500 font-bold">{{ data.SheetName1 }}</h2>
 <p> author : {{ data.Author }} </p> 
 <!-- <p>nbr colonnes : {{data.colsCount}} - nbr lignes : {{ data.rowsCount}}</p> -->
- <p>daysInfos : {{ data.daysInfos }}</p>
+ <!-- <p>daysInfos : {{ data.daysInfos }}</p> -->
  <hr>
  <!-- <p>listeDays : {{ data.listeDays }}</p>  -->
  
 
  <div v-for="ji in data.listeDays" :keys="ji">
-  <h2 class="bg-yellow-200"> {{ data.mainData[_.toNumber(ji) + 1]['jour']}} </h2>
+  <h2 class="text-yellow-500 font-bold mt-10"> {{ data.mainData[_.toNumber(ji) + 1]['jour']}} </h2>
  <p> COUNT : {{ data.mainData[_.toNumber(ji) + 1]['colsCount']}} - START : {{ data.mainData[_.toNumber(ji) + 1]['colStart']}}</p>
 
     <table class="">
