@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   vite: {
     assetsInclude: ["**/*.xlsx"]
   },
-  modules: ['@nuxt/content', '@nuxtjs/tailwindcss','@nuxtjs/color-mode', 'nuxt-lodash' ],
+  modules: ['@nuxt/content', '@nuxtjs/tailwindcss','@nuxtjs/color-mode', 'nuxt-lodash', 'dayjs-nuxt' ],
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',
     configPath: 'tailwind.config',

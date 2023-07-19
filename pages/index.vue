@@ -4,6 +4,8 @@
 <p> author : {{ data.Author }} </p> 
 <!-- <p>nbr colonnes : {{data.colsCount}} - nbr lignes : {{ data.rowsCount}}</p> -->
  <!-- <p>daysInfos : {{ data.daysInfos }}</p> -->
+
+ <!-- <PrettyJSON :dataJSON="data.collectionDays"/>  -->
  <hr>
  <!-- <p>listeDays : {{ data.listeDays }}</p>  -->
  
@@ -39,8 +41,8 @@ import _ from 'lodash'
 const path = ref("./assets/coligny.xlsx")
 
 const { data, pending, error, refresh } = await useAsyncData(
-  'coligny2',
-  () => $fetch('/api/coligny2', {
+  'coligny',
+  () => $fetch('/api/coligny', {
     params: {
       path: "./assets/coligny.xlsx"
     }

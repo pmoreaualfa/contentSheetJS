@@ -13,11 +13,13 @@
     "@nuxtjs/color-mode": "^3.3.0",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@types/node": "^18.15.12",
+    "dayjs-nuxt": "^1.1.2",
     "nuxt": "^3.6.2",
     "nuxt-lodash": "^2.5.0"
   },
   "dependencies": {
     "@egoist/tailwindcss-icons": "^1.1.0",
+    "dayjs": "^1.11.9",
     "lodash": "^4.17.21",
     "node-xlsx": "^0.23.0",
     "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.0/xlsx-0.20.0.tgz"

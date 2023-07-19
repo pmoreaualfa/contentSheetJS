@@ -31,3 +31,7 @@ npm install node-xlsx --save
 # lodash
 https://lodash.com/
 npm i nuxt-lodash -D
+# date lib
+(npm i dayjs)
+https://day.js.org/docs/en/installation/installation
+npm install --save-dev dayjs-nuxt
